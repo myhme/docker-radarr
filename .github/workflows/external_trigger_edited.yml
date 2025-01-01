@@ -71,7 +71,7 @@ jobs:
             ghcr.io/myhme/radarr:v${{ inputs.version }}
           build-args: |
             VERSION=2.1
-            SONARR_VERSION=${{ inputs.version }}
+            RADARR_VERSION=${{ inputs.version }}
             BUILD_DATE=${{ steps.date.outputs.BUILD_DATE }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
