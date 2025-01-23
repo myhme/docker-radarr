@@ -15,7 +15,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           personal_token: ${{ secrets.REPOSITORY_ACCESS_TOKEN }}
-          owner: myhme
+          owner: linuxserver
           repo: docker-radarr
           base: master
           head: master
