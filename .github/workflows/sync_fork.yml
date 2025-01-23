@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v2
         with:
-          token: ${{ secrets.REPOSITORY_ACCESS_TOKEN }}
+          personal_token: ${{ secrets.REPOSITORY_ACCESS_TOKEN }}
           owner: myhme
           repo: docker-radarr
           base: master
