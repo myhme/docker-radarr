@@ -15,6 +15,7 @@ jobs:
         with:
           token: ${{ secrets.REPOSITORY_ACCESS_TOKEN }}
           owner: myhme
+          repo: docker-radarr
           base: master
           head: master
           merge_method: merge
